@@ -7,7 +7,7 @@ public class Main
             for( float x =-2.3f; x<2.3f; x+=0.041f){
                 float a = x*x+y*y-4f;
                 if((a*a*a - x*x*y*y*y) <-0.0f){
-                    String str = "I LOVE YOU!";
+                    String str = "HONG VAN!";
                     int num = cnt%str.length();
                     System.err.print(str.charAt(num));
                     cnt++;
